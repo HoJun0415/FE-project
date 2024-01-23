@@ -1,0 +1,461 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: pretendard;
+}
+
+.btn-common {
+    background-color: #D97652;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-common:hover {
+    background-color: #FFA07A;
+}
+
+/* header section starts */
+
+header {
+    display: flex;
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 320px;
+    background-color: #F2E9D8;
+    position: sticky;
+    z-index: 2;
+    top: 0; left: 0; right: 0;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0, 0.1);
+}
+
+.hodu_logo1 {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-right: 756px;
+    width: 130px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    width: 205px;
+    height: 20px;
+    margin-right: 49px;
+}
+
+nav a{
+    text-decoration-line: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+nav a:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn1{
+    width: 140px;
+    height: 50px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+/* header section ends */
+
+/* container1 section starts */
+
+.container1 {
+    display: flex;
+    padding-left: 320px;
+    padding-right: 320px;
+    background-color: #F2E9D8;
+}
+
+.container1 h1 {
+    width: 695px;
+    height: 120px;
+    margin-top: 302px;
+    margin-right: 170px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.container1 p {
+    width: 420px;
+    height: 86px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.container1 img {
+    width: 415px;
+    height: 766px;
+}
+
+/* container1 section ends */
+
+/* container2 section starts */
+
+.container2 {
+    display: flex;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.cat_img2 {
+    width: 660px;
+    height: 390px;
+    margin-top: 80px;
+    margin-right: 110px;
+}
+
+.wrap1 {
+    margin-top: 172px;
+}
+
+.wrap1 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    width: 510px;
+    height: 135px;
+}
+
+.wrap1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 510px;
+    height: 40px;
+}
+
+/* container2 section ends */
+
+/* container3 section starts */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.container3 > p:nth-child(1) {
+    color: #D97652;
+    width: 875px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    margin-left: 203px;
+}
+
+.container3 p:nth-child(2) {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 285px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 710px;
+    height: 42px;
+}
+
+.container3 p:nth-child(2) span {
+    font-weight: 700;
+    color: #D97652;
+}
+
+.img_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1278px;
+}
+
+.img_box img{
+    width: 378px;
+    height: 378px;
+    margin-bottom: 10px;
+}
+
+.img_box .margin_box {
+    margin-right: 72px;
+}
+
+.wrap2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 495px;
+}
+
+.wrap2 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.wrap2 .btn2 {
+    width: 143px;
+    height: 50px;
+    margin-bottom: 60px;
+    margin-left: 73.5px;
+}
+
+.stopBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    left: 888.5px;
+    width: 143px;
+    height: 50px;
+    z-index: 2;
+}
+
+.line {
+    border: 1px solid #C4C4C4;
+    margin-left: 0px;
+    width: 1278px;
+}
+
+/* container3 section ends */
+
+/* container4 section starts */
+
+.container4 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.container4 > p:first-of-type {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.container4 > p:nth-of-type(2) {
+    margin-bottom: 48px;
+
+}
+
+.container4 #map {
+    width:1278px;
+    height:520px;
+    margin-bottom: 200px;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal_body {
+    background-image: url("modal_bg.png");
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+}
+
+.modal_body img {
+    width: 110px;
+    height: 112px;
+    margin-top: 60px;
+}
+
+.modal_body p:nth-child(2) {
+    width: 212px;
+    height: 46px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #D97652;
+}
+
+.modal_body p:nth-child(3) {
+    width: 365px;
+    height: 18px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.modal_body button {
+    width: 183px;
+    height: 50px;
+    margin-top: 38px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #D97652;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+
+article {
+    display: flex;
+    position: absolute;
+    top: 770px;
+    justify-content: space-between;
+    width: 1280px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #263140;
+}
+
+article .wrap4 {
+    margin-left: 20px;
+}
+
+article .wrap4 p:nth-child(1) {
+    width: 448px;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    margin-left: 58px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: white;
+}
+
+article .wrap4 p:nth-child(2) {
+    width: 471px;
+    height: 36px;
+    margin-left: 58px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
+article .wrap5 {
+    position: relative;
+    margin-right: 58px;
+    margin-top: 69px;
+    margin-bottom: 71px;
+}
+
+input {
+    width: 464.45px;
+    height: 55.45px;
+    border-radius: 60px;
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.mail_image {
+    position: absolute;
+    top: 18px;
+    bottom: 18px;
+    left: 28px;
+}
+
+.btn3 {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 389px;
+    right: 6px;
+    width: 135px;
+    height: 50px;
+}
+
+/* container4 section ends */
+
+/* container5 section starts */
+
+.container5 {
+    background-image: url("img_7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 30vh;
+}
+
+.container5 img {
+    width: 40px;
+    height: 40px;
+}
+
+.container5 img:hover {
+    content: url("scroll-top-btn (2).png");
+}
+
+/* container5 section ends */
+
+/* footer section starts */
+
+footer {
+    display: flex;
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+footer .div3 {
+    display: flex;
+    width: 100%;
+}
+
+footer .hodu_logo2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 826px;
+    width: 226px;
+    height: 70px;
+}
+
+footer .icon-group {
+    margin-top: 58px;
+    margin-bottom: 58px;
+    width: 228px;
+    height: 42px;
+}
+
+/* footer section ends */
